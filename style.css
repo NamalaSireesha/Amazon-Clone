@@ -7,4 +7,152 @@
 .mainpage{
     font-size: 23px;
 }
+div{
+                background-color: black;
+                height: 60px;
+            }
+            h4{
+                margin-top: 80px;
+                text-align: center;
+                height: 60px;
+                width:1450px;
+                background-color: black;               
+                color:white; 
+                display:inline;  
+                margin:100px;             
+            }
+            #s{
+                color:orange;
+            }
+            #b{
+                color:orange;
 
+            }
+            #d2{
+                height: 100px;
+                width:100px;
+                background-image:url("amazon-logo.jpg");
+                background-size: cover;
+                background-color: bisque;
+                position: fixed;
+                right: 0%;
+            }
+            main{
+                text-align: center;
+            }
+            #button{
+                background-color: orange;
+                color
+                : white;
+            }
+            #image{
+                width:70%;
+                height:5%;
+            }
+            #img{
+                padding-top: 20%;
+                width:200%;
+                height:40%
+            }
+            
+            .items-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1.5rem;
+                background-color:white;
+                padding: 0 2rem 2rem 2rem;
+            }
+            
+            .item-card {
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                flex: 1 0 300px;
+                gap: 1rem;
+                font-size: .7rem;
+                background-color: white;
+                padding: 1rem;
+                cursor: pointer;
+                overflow: hidden;
+            }
+            
+            .item-card img {
+                height: 300px;
+                width: 100%;
+                border: 2px solid black;
+                object-fit: cover;
+            }
+            
+            .item-card a {
+                text-decoration: none;
+                font-weight: bold;
+                color: #007185;
+            }
+            .footer{
+                bottom: 5%;
+                width:100%;
+                height:450px;
+                transition: all 0.2s;
+            }
+            .backtop{
+                text-align: center;
+                height:50px;
+                background-color: #37475a;
+                padding:15px;
+                cursor: pointer;
+            }
+            .backtop span{
+                color:white;
+                font-weight: bold;
+            }
+            .backtop:hover{
+                background-color: #4d627c;
+            }
+            .detail{
+                background-color: #232f3e;
+                height:375px;
+            }
+            .table{
+                margin:0 150px;
+                height:100%;
+                display: flex;
+                justify-content: space-around;
+                padding-top:50px;
+            }
+            .table div{
+                width:230px;
+            }
+            .t-head{
+                font-size: 16px;
+                color:white;
+                font-weight: bold;
+                margin-bottom: 3px;
+            }
+            .table li{
+                color: rgb(223,221,221);
+                padding-top:10px;
+                font-weight: lighter;
+                list-style: none;
+                font-size: 14px;
+            }
+            .copy{
+                background-color: #232f3e;
+                height: 90px;
+                padding:40px;
+                text-align: center;
+            }
+            .copy span{
+                color:white;
+                font-size: 14px;
+            }
+            .line{
+                height:0.4px;
+                width:100%;
+                background-color: rgb(172,172,172);
+            
+            }
+            #footer {
+                width: 100%;
+                height: 60%;
+                  
+            }
